@@ -3,10 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="assets/icono.png" type="image/x-icon">
+    <title>Drink & Enjoy</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <header>
+        <nav>
+            <div>
+                <a  style="display: flex; align-items: center; font-size: larger;" class="navbar-brand" href="#">
+                <img src="assets/icono.png" alt="Logo" width="30" height="24" class="logo d-inline-block align-text-top">
+                Drink & Enjoy
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <section class="primer-seccion">
+                <h1 class="animate__animated animate__pulse animate__infinite">Bienvenido a Drink & Enjoy</h1>
+                <p>
+                    Aqui puedes comprar los <b>Procesadores</b> mas rapidos, eficientes y baratos de 
+                    <span>
+                    <blue>AR</blue><white>GE</white><yellow>N</yellow><white>TI<white><blue>NA</blue>
+                    </span>
+                </p>
+            </section>
+            <section class="segunda-seccion">
+                <div class="tarjetas">
+                    <!------------------------ Producto 1 -------------------------->
+                    <div class="centrar">
+                        <div class="card">
+                            <img src="assets/sprite-500ml.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">SPRITE X 500 ML</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">$2000</li>
+                            </ul>
+                            <div class="card-body">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------ Producto 2 -------------------------->
+                    <div class="centrar">
+                        <div class="card">
+                            <img src="assets/sprite-1,5l.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">SPRITE X 1,5 lt</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">$3500</li>
+                            </ul>
+                            <div class="card-body">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------ Producto 3 -------------------------->
+                    <div class="centrar">
+                        <div class="card">
+                            <img src="assets/coca-cola-500ml.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">COCA COLA X 500 ML</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">$1900</li>
+                            </ul>
+                            <div class="card-body">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------ Producto 4 -------------------------->
+                    <div class="centrar">
+                        <div class="card">
+                            <img src="assets/coca-cola-1,5l.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">COCA COLA X 1,5 LT</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">$3400</li>
+                            </ul>
+                            <div class="card-body">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------ Producto 5 -------------------------->
+                    <div class="centrar">
+                        <div class="card">
+                            <img src="assets/coca-cola-zero-1,5l.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">COCA ZERO X 1,5 LT</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">$3500</li>
+                            </ul>
+                            <div class="card-body">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------ Producto 6 -------------------------->
+                    <div class="centrar">
+                        <div class="card">
+                            <img src="assets/fanta-1,5l.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">FANTA X 1,5 LT</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">$3300</li>
+                            </ul>
+                            <div class="card-body">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <ul>
+
+                </ul>
+                <button id="comprar">Comprar</button>
+            </section>
+        </div>
+    </main>
+    <footer>
+        Ecommerce by Juan Cruz
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
